@@ -2,7 +2,7 @@ function Resume() {
     const handleDownload = () => {
         const link = document.createElement('a');
         link.href = '/Jayaa Sri Resume.pdf';
-        link.download = 'Jayaa_Sri_K_Resume.pdf';
+        link.download = 'https://jayaasri-portfolio.vercel.app/Jayaa_Sri_K_Resume.pdf';
         link.click();
     };
 
