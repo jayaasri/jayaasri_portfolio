@@ -9,7 +9,7 @@ pdfjs.GlobalWorkerOptions.workerSrc = new URL(
   import.meta.url
 ).toString();
 
-const pdfUrl = "/JayaaSri_Resume.pdf"; // PDF must be in the public folder
+const pdfUrl = "/JayaaSri_Resume.pdf"; 
 
 function Resume() {
   const [width, setWidth] = useState(window.innerWidth);
@@ -33,29 +33,8 @@ function Resume() {
     <div>
       <section className="min-h-screen py-20 bg-gray-50 pt-24">
         <div className="max-w-4xl mx-auto px-6">
-          <h2 className="text-4xl font-bold text-center mb-8">Resume</h2>
+          <h2 className="text-4xl font-bold text-center mb-8 class1">Resume</h2>
 
-          {/* PDF Viewer */}
-          <div
-            style={{
-              height: "80vh",
-              display: "flex",
-              justifyContent: "center",
-              alignItems: "center",
-              marginBottom: "2rem",
-            }}
-          >
-            <Document
-              file={pdfUrl}
-              onLoadError={(error) => alert("Error loading PDF: " + error.message)}
-              onLoadSuccess={() => console.log("PDF loaded successfully")}
-              loading={<p>Loading PDF...</p>}
-            >
-              <Page pageNumber={1} scale={width > 786 ? 1.7 : 0.6} />
-            </Document>
-          </div>
-
-          {/* Download Button */}
           <div className="text-center mb-8">
             <button
               onClick={handleDownload}
