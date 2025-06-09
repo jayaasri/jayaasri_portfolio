@@ -17,7 +17,7 @@ function Navbar({ activeSection, setActiveSection }) {
                     alt="Jsri Logo" 
                     className="h-14 w-14 rounded-full object-cover"
                     />
-                        <div data-name="logo" className="text-2xl font-bold class1">
+                        <div data-name="logo" className="text-xl font-bold class1">
                             Jayaa Sri's Personal Portfolio
                         </div>
       
