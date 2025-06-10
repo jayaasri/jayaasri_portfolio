@@ -1,7 +1,7 @@
 function Resume() {
     const handleDownload = () => {
         const link = document.createElement('a');
-        link.href = '/Jayaa Sri Resume.pdf';
+        link.href = '/Jayaasriresume.pdf';
         link.download = 'Jayaa_Sri_K_Resume.pdf';
         link.click();
     };
