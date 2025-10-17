@@ -26,7 +26,7 @@ function Resume() {
                         <div className="text-center mb-8">
                             <h1 className="text-3xl font-bold mb-2">JAYAA SRI K</h1>
     
-                            <p className="text-gray-600">Email: jayaasri2003@gmail.com | Phone: 9843858348</p>
+                            <p className="text-gray-600">Email: jayaasri2003@gmail.com </p>
                         </div>
 
                         <div className="space-y-6">
