@@ -17,7 +17,7 @@ function Resume() {
                             onClick={handleDownload}
                             className="bg-purple-600 text-white px-6 py-3 rounded-lg hover:bg-purple-700 transition-colors inline-flex items-center hover-scale"
                         >
-                            <i className="fas fa-download mr-2"></i>
+                        <i className="fas fa-download mr-2"></i>
                             Download Resume
                         </button>
                     </div>
