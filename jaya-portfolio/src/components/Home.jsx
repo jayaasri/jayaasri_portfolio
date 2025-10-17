@@ -37,10 +37,7 @@ function Home() {
                             </p>
                             
                             <div className="flex justify-center md:justify-start flex-wrap gap-6">
-  <div className="text-center">
-    <i className="fas fa-phone text-yellow-300 mb-2 text-xl"></i>
-    <p className="text-sm">9843858348</p>
-  </div>
+  
   <div className="text-center">
     <i className="fas fa-envelope text-yellow-300 mb-2 text-xl"></i>
     <p className="text-sm">jayaasri2003@gmail.com</p>
