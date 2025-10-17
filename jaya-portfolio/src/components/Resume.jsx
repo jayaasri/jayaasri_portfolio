@@ -65,7 +65,7 @@ function Resume() {
                                 <div className="border-l-4 border-purple-200 pl-4">
                                     <p><strong>Father's Name:</strong> Kumaran K</p>
                                     <p><strong>Date of Birth:</strong> 22/08/2003</p>
-                                    <p><strong>Gender:</strong> Female | <strong>Status:</strong> Unmarried</p>
+                                    <p><strong>Gender:</strong> Female </p>
                                     <p><strong>Nationality:</strong> Indian</p>
                                     <p><strong>Languages Known:</strong> English, Tamil, Hindi</p>
                                 </div>
